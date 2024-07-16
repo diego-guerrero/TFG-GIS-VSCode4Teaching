@@ -1,3 +1,34 @@
+# Trabajo Fin de Grado - Grado en Ingeniería del *Software*
+
+**Título del trabajo**: VSCode4Teaching: mantenimiento y evolución de la herramienta para la enseñanza de la programación en línea.  
+**Autor**: Diego Guerrero Carrasco ([correo electrónico](mailto:diegogcarrasco@icloud.com), [perfil en GitHub](https://github.com/diego-guerrero), [perfil en LinkedIn](https://www.linkedin.com/in/diego-guerrero-carrasco/)).  
+**Titulación**: Grado en Ingeniería del *Software* (dentro del Doble grado en Ingeniería Informática e Ingeniería del *Software*), Escuela Técnica Superior de Ingeniería Informática, Universidad Rey Juan Carlos (Madrid, España).  
+**Defendido** el martes 16 de julio de 2024 en el Campus de Móstoles de la Universidad Rey Juan Carlos.
+
+El presente repositorio contiene el código fuente del proyecto VSCode4Teaching desde su origen hasta la finalización del Trabajo Fin de Grado correspondiente al Grado en Ingeniería del *Software*. El máximo punto de actualización se ubica en la rama [`master`](https://github.com/diego-guerrero/TFG-GIS-VSCode4Teaching/tree/master) y en la etiqueta [`2.2.1`](https://github.com/diego-guerrero/TFG-GIS-VSCode4Teaching/releases/tag/2.2.1), la última versión de VSCode4Teaching publicada antes de finalizar el Trabajo Fin de Grado.
+
+
+## Resumen
+[*VSCode4Teaching*](https://github.com/codeurjc-students/2019-VSCode4Teaching) es una extensión para el entorno de desarrollo integrado Visual Studio Code que tiene como objetivo facilitar y potenciar la enseñanza de la disciplina de la programación, contribuyendo así a la mejora de la educación en competencias digitales y en el ámbito de la informática, área que vive un incipiente crecimiento causado por su veloz y revolucionaria implantación y extensión a nivel universal.
+
+En *VSCode4Teaching*, los docentes pueden crear, mantener y supervisar cursos compuestos por ejercicios que los estudiantes matriculados completarán para aprender. Para ello, los profesores proponen una plantilla inicial a cada ejercicio sobre la que los estudiantes construyen la solución que consideren válida, sincronizándola durante su realización para mantener al profesor informado en tiempo real hasta finalizarla.
+
+El presente documento describe de forma pormenorizada todas las cuestiones relativas al tercer trabajo de evolución y adaptación realizado sobre *VSCode4Teaching*, que introduce nuevas características y refina la funcionalidad de esta herramienta para aumentar su alcance y potenciar su usabilidad y mantenibilidad.
+
+Este proyecto tiene una fisonomía de aplicación web compuesta de tres componentes: un servidor, encargado del intercambio, persistencia e interpretación de los datos, una extensión para Visual Studio Code y una aplicación web que permite ampliar la funcionalidad de la aplicación más allá del editor de código.
+
+*VSCode4Teaching* es un proyecto de *software* libre sujeto a la licencia Apache 2.0 a través de un [repositorio público de GitHub](https://github.com/codeurjc-students/2019-VSCode4Teaching) que contiene, además, la documentación necesaria para que otros desarrolladores puedan ejecutar y desplegar la aplicación, pudiendo adaptarla a sus intereses.
+
+
+## Recursos asociados
+- Memoria de la evolución realizada sobre el proyecto VSCode4Teaching en este Trabajo Fin de Grado: [https://github.com/diego-guerrero/TFG-GIS-Memoria](https://github.com/diego-guerrero/TFG-GIS-Memoria).
+
+
+## Licencia
+Este proyecto se divulga desde su origen bajo licencia **Apache License 2.0**, por lo que tanto el trabajo del presente autor como de los anteriores debe ser reconocido en sucesivas reutilizaciones del proyecto en caso de no ser modificado. Se puede consultar más información en el fichero [`LICENSE`](LICENSE).
+
+---
+
 # VSCode4Teaching
 
 [![Travis CI build status](https://img.shields.io/travis/com/codeurjc-students/2019-VSCode4Teaching?label=Travis%20CI&style=flat-square)](https://app.travis-ci.com/github/codeurjc-students/2019-VSCode4Teaching)
